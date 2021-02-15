@@ -1,0 +1,6 @@
+CREATE TABLE calendar_events (
+ id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+ event_title VARCHAR (25),
+ event_shortdesc VARCHAR (255),
+ event_start DATETIME
+);
